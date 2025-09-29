@@ -68,11 +68,7 @@ const BookDetails = () => {
           {user ? (
             <ReviewForm bookId={id} />
           ) : (
-            <p className="mt-4 text-center">
-              <a href="/signin" className="text-blue-500 hover:underline">
-                Sign in to add a review
-              </a>
-            </p>
+            <p className="mt-4 text-center">Sign in to add a review</p>
           )}
         </div>
       </div>
